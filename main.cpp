@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Movies.h"
 
+
 using namespace std;
 
 // Function prototypes
@@ -55,7 +56,7 @@ int main() {
     add_movie(my_movies, "Big", "PG-13",2);                 // OK
     add_movie(my_movies,"Star Wars", "PG",5);             // OK
     add_movie(my_movies,"Cinderella", "PG",7);           // OK
-     
+    
     my_movies.display();   // Big, Star Wars, Cinderella
     
     add_movie(my_movies,"Cinderella", "PG",7);            // Already exists
