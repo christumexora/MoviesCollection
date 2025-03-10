@@ -14,7 +14,7 @@ class Movies
         Movies();       //Constructor
         ~Movies();      //Destructor
         
-        bool add_movies(string movie_name, string movie_rating, int movie_watched)
+        bool add_movie(string movie_name, string movie_rating, int movie_watched);
         bool increment_watched(string movie_name);
         void display() const;
 };
